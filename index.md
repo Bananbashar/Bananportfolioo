@@ -36,4 +36,3 @@ I'm Banan Aljarrah, a Clinical Pharmacy student passionate about medical data an
 - 📊 [GitHub](https://github.com/bananbashar)
 
 
-![Alt text for screen readers](assets/images/6.jpg)
