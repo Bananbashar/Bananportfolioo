@@ -1,3 +1,23 @@
+<style>
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* شفافية سوداء */
+  z-index: -1;
+}
+body {
+  background-image: url("assets/images/6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+</style>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
