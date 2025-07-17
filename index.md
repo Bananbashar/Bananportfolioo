@@ -1,3 +1,16 @@
+<style>
+body {
+  background-image: url("assets/images/6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white; /* لو بدك النص يبين فوق الخلفية */
+}
+</style>
+
+
+
 # Welcome!
 
 I'm Banan Aljarrah, a Clinical Pharmacy student passionate about medical data analysis using R.
