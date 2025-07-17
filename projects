@@ -1,0 +1,18 @@
+<section id="projects" class="p-10 bg-gray-100 min-h-screen">
+  <h1 class="text-3xl font-bold mb-8 text-center">My Projects</h1>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+   
+    <div class="bg-white shadow-lg rounded-2xl p-6">
+      <h2 class="text-xl font-semibold">Survival Analysis (AML)</h2>
+      <p class="mt-2 text-gray-600">Analysis of TCGA-LAML dataset using Kaplan-Meier curves and log-rank tests.</p>
+      <a href="https://github.com/Bananbashar/projects" target="_blank" class="mt-4 inline-block text-blue-600 underline">View on GitHub</a>
+    </div>
+
+
+   
+
+
+  </div>
+</section>
