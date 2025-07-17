@@ -1,47 +1,81 @@
----
-layout: default
-title: Welcome !
----
-<style>
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* شفافية سوداء */
-  z-index: -1;
-}
-body {
-  background-image: url("assets/images/6.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-}
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banan Al-Jarrah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('A_website_homepage_of_Banan_Al-Jarrah,_a_Clinical_.png') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 40px; margin-top: 80px;">
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
 
-  <a href="/about" style="text-align: center; text-decoration: none; color: black;">
-    <img src="/assets/images/icon-about.png" alt="About Me" style="width: 100px;">
-    <div style="margin-top: 10px;">About Me</div>
-  </a>
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
 
-  <a href="/work" style="text-align: center; text-decoration: none; color: black;">
-    <img src="/assets/images/icon-work.png" alt="Work" style="width: 100px;">
-    <div style="margin-top: 10px;">Work</div>
-  </a>
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
 
-  <a href="/projects" style="text-align: center; text-decoration: none; color: black;">
-    <img src="/assets/images/icon-projects.png" alt="Projects" style="width: 100px;">
-    <div style="margin-top: 10px;">Projects</div>
-  </a>
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
 
-  <a href="/contact" style="text-align: center; text-decoration: none; color: black;">
-    <img src="/assets/images/icon-contact.png" alt="Contact Me" style="width: 100px;">
-    <div style="margin-top: 10px;">Contact Me</div>
-  </a>
+    .buttons a {
+      text-decoration: none;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 1px solid white;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
 
-</div>
+    .buttons a:hover {
+      background-color: white;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Banan Al-Jarrah</h1>
+    <div class="buttons">
+      <a href="about.html">About Me</a>
+      <a href="work.html">Work</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+  </div>
+</body>
+</html>
