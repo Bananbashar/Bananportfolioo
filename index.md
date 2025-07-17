@@ -1,64 +1,28 @@
 ---
 layout: default
-title: Welcome to Banan's Portfolio
+title: Welcome !
 ---
 
-<style>
-body {
-  background-image: url('/assets/images/6.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  padding-top: 100px;
-}
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 40px; margin-top: 80px;">
 
-.icon-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 80px;
-}
-
-.icon-box {
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 20px;
-  padding: 30px;
-  width: 200px;
-  transition: transform 0.3s;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
-}
-
-.icon-box:hover {
-  transform: scale(1.05);
-}
-
-.icon {
-  font-size: 50px;
-  margin-bottom: 15px;
-}
-</style>
-
-# 👋 Welcome!
-
-I’m **Banan Aljarrah**, a clinical pharmacist with a passion for medical data analysis using R. Explore my journey:
-
-<div class="icon-container">
-  <a href="/about" class="icon-box">
-    <div class="icon">🧕</div>
-    <strong>About Me</strong>
+  <a href="/about" style="text-align: center; text-decoration: none; color: black;">
+    <img src="/assets/images/icon-about.png" alt="About Me" style="width: 100px;">
+    <div style="margin-top: 10px;">About Me</div>
   </a>
-  <a href="/work" class="icon-box">
-    <div class="icon">💼</div>
-    <strong>Work</strong>
+
+  <a href="/work" style="text-align: center; text-decoration: none; color: black;">
+    <img src="/assets/images/icon-work.png" alt="Work" style="width: 100px;">
+    <div style="margin-top: 10px;">Work</div>
   </a>
-  <a href="/intro" class="icon-box">
-    <div class="icon">📊</div>
-    <strong>Projects</strong>
+
+  <a href="/projects" style="text-align: center; text-decoration: none; color: black;">
+    <img src="/assets/images/icon-projects.png" alt="Projects" style="width: 100px;">
+    <div style="margin-top: 10px;">Projects</div>
   </a>
-  <a href="/contact" class="icon-box">
-    <div class="icon">✉️</div>
-    <strong>Contact Me</strong>
+
+  <a href="/contact" style="text-align: center; text-decoration: none; color: black;">
+    <img src="/assets/images/icon-contact.png" alt="Contact Me" style="width: 100px;">
+    <div style="margin-top: 10px;">Contact Me</div>
   </a>
+
 </div>
