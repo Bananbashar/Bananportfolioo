@@ -11,3 +11,6 @@ I'm Banan Aljarrah, a Clinical Pharmacy student passionate about medical data an
 - 📧 bbaljarrah20@ph.just.edu.jo
 - 💼 [LinkedIn](https://www.linkedin.com/in/banan-al-jarrah-aba125357)
 - 📊 [GitHub](https://github.com/bananbashar)
+
+
+![Alt text for screen readers](assets/images/6.jpg)
