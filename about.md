@@ -8,6 +8,12 @@ image: about.jpg
   }
 </style>
 
+<style>
+  body {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+  }
+</style>
+
 
 
 I am a clinical pharmacist passionate about medical research and data analysis using R.<br />
