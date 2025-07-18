@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="assets/css/style.css">
-<body class="home">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Banan Al-Jarrah</title>
+  <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * {
@@ -16,13 +15,15 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background: url('A_website_homepage_of_Banan_Al-Jarrah,_a_Clinical_.png') no-repeat center center fixed;
+      background: url('assets/images/6.jpg') no-repeat center center fixed;
       background-size: cover;
       height: 100vh;
       color: white;
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+      overflow: hidden;
     }
 
     .overlay {
@@ -37,11 +38,13 @@
       position: relative;
       z-index: 1;
       text-align: center;
+      animation: fadeIn 1.5s ease-in;
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1.5rem;
+      font-size: 2.8rem;
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
     }
 
     .buttons {
@@ -66,12 +69,17 @@
       background-color: white;
       color: #000;
     }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
   <div class="overlay"></div>
   <div class="content">
-    <h1>Banan Al-Jarrah</h1>
+    <h1>Welcome! Let’s Explore Together</h1>
     <div class="buttons">
       <a href="about.html">About Me</a>
       <a href="work.html">Work</a>
