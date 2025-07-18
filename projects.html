@@ -1,41 +1,32 @@
----
-<link rel="stylesheet" href="assets/css/style.css">
-layout: default
-title: Projects
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 <body class="projects">
+  <div class="container">
+    <h1>My Projects</h1>
 
-<h1>My Projects</h1>
+    <div class="project-card">
+      <h2>1. Diabetes Data Analysis</h2>
+      <p>Clinical analysis using R and visualization techniques.</p>
+      <a href="Diabetes-Project.pdf" target="_blank">📄 View PDF</a>
+    </div>
 
-<div class="project-card">
-  <h2>1. Diabetes Data Analysis</h2>
-  <p>Exploratory data analysis and visualization of clinical variables related to diabetes patients using R.</p>
-  <a href="Diabetes-Project.pdf" target="_blank">📄 View PDF</a>
-</div>
+    <div class="project-card">
+      <h2>2. AML Survival Analysis</h2>
+      <p>Survival curves for AML patients using Kaplan-Meier method.</p>
+      <a href="AML-Survival-Analysis.pdf" target="_blank">📄 View PDF</a>
+    </div>
 
-<div class="project-card">
-  <h2>2. AML Survival Analysis</h2>
-  <p>Kaplan-Meier and log-rank test to assess survival patterns in AML patients with stratification by age.</p>
-  <a href="AML-Survival-Analysis.pdf" target="_blank">📄 View PDF</a>
-</div>
-
-<!-- Example of a future project -->
-<div class="project-card">
-  <h2>3. Drug Review Sentiment Analysis</h2>
-  <p>Sentiment analysis of patient feedback on medications using NLP.</p>
-  <a href="Drug-Review-Sentiment-Analysis.pdf" target="_blank">📄 View PDF</a>
-</div>
-
-<style>
-body {
-  background-image: url('/assets/images/{{ page.background_image }}');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  backdrop-filter: brightness(0.6);
-  color: white;
-}
-</style>
-
-
+    <div class="project-card">
+      <h2>3. Drug Review NLP</h2>
+      <p>Sentiment analysis on drug reviews with NLP models.</p>
+      <a href="Drug-Review-Sentiment-Analysis.pdf" target="_blank">📄 View PDF</a>
+    </div>
+  </div>
+</body>
+</html>
