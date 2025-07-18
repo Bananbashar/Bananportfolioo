@@ -1,7 +1,11 @@
+
+
 ---
-title: about
-image: about.jpg
+layout: default
+title: About Me
+background_image: icon-about.jpg
 ---
+
 <style>
   body {
     background: linear-gradient(to right, #e0f7fa, #ffffff);
