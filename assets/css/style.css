@@ -67,3 +67,19 @@ a:hover {
     opacity: 1;
   }
 }
+
+body.projects {
+  background-image: url('../images/icon-projects.jpg');
+}
+body.about {
+  background-image: url('../images/icon-about.jpg');
+}
+body.contact {
+  background-image: url('../images/icon-contact.jpg');
+}
+body.work {
+  background-image: url('../images/icon-work.jpg');
+}
+body.home {
+  background-image: url('../images/6.jpg');
+}
