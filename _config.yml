@@ -4,3 +4,12 @@ theme: jekyll-theme-minimal
 show_downloads: false
 github:
   is_project_page: false
+
+
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Work: work.md
+  - Projects: projects.html
+  - Contact: contact.md
