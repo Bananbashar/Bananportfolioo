@@ -25,3 +25,6 @@ a:hover {
   text-decoration: underline;
 }
 
+.projects-page {
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
