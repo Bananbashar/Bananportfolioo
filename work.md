@@ -6,12 +6,12 @@ background_image: icon-work.jpg
 
 <section class="section">
   <div class="container">
-    <h2>My Work Experience</h2>
+    <h2>From Scripts to Impact</h2>
     <ul>
-      <li><strong>2024-2025:</strong> Clinical Data Analyst Intern – Worked on survival analysis of AML patients using R.</li>
-      <li><strong>2023:</strong> Research Assistant – Assisted in data cleaning and visualization for hospital-based drug reviews.</li>
-      <li><strong>2022:</strong> Clinical Pharmacy Trainee – JUST Hospital, Jordan.</li>
-      <li><strong>Google Data Analytics Certificate:</strong> Completed 8-course specialization on R, SQL, and data storytelling.</li>
+      <li><strong><p>
+  This page showcases a curated selection of my analytical work in clinical and pharmaceutical data using R. Each project reflects a real-world question in healthcare—ranging from survival analysis in leukemia patients to sentiment analysis of patient-reported drug reviews. I focus on delivering insights that are both statistically sound and clinically meaningful, emphasizing reproducibility and clarity. Click below to explore each project in detail.
+</p>
+.</li>
     </ul>
   </div>
 </section>
