@@ -1,3 +1,14 @@
+---
+layout: default
+title: About Me
+---
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<div class="container">
+  ...محتوى الصفحة...
+</div>
+
 <section id="projects" class="p-10 bg-gray-100 min-h-screen">
   <h1 class="text-3xl font-bold mb-8 text-center">My Projects</h1>
 
