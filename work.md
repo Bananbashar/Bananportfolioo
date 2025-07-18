@@ -1,3 +1,9 @@
+---
+layout: default
+title: Work
+background_image: icon-work.jpg
+---
+
 <section class="section">
   <div class="container">
     <h2>My Work Experience</h2>
