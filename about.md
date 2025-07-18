@@ -2,9 +2,6 @@
 
 ---
 <link rel="stylesheet" href="assets/css/style.css">
-layout: default
-title: About Me
-background_image: icon-about.jpg
 ---
 
 <style>
