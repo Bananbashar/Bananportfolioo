@@ -1,7 +1,9 @@
 ---
 layout: default
-title: About Me
+title: Projects
+background_image: icon-projects.jpg
 ---
+
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
