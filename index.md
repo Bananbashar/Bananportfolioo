@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+
 <html lang="en">
-<head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Banan Al-Jarrah</title>
@@ -75,7 +75,7 @@
       to   { opacity: 1; transform: translateY(0); }
     }
   </style>
-</head>
+<head>
 <body>
   <div class="overlay"></div>
   <div class="content">
